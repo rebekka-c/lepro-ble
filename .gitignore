@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.coverage
+.pytest_cache/
+.venv/
+# probe output may contain device MACs
+lepro_probe_*.jsonl
+*.jsonl
