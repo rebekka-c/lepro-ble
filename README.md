@@ -92,7 +92,7 @@ Exit codes: `0` success · `1` probe or adapter error · `2` no candidate found 
 
 ## Suggested next steps
 
-Taken from §8 of the report:
+The full hardware test plan, with results tables, is in **[TESTING.md](TESTING.md)**. In short:
 
 1. **Airplane-mode test.** Put the phone in airplane mode, turn Bluetooth back on, and see whether the Lepro app still controls the bulb.
 2. **Internet-block test.** Block the bulb's internet access at the router and see whether the app still works nearby.
